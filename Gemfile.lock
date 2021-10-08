@@ -43,7 +43,15 @@ GEM
     unicode-display_width (1.8.0)
 
 PLATFORMS
+  arm-linux
   arm64-darwin-20
+  armv7-linux
+  ruby
+  universal-darwin-8
+  x86-freebsd
+  x86-mingw32
+  x86-mswin32-80
+  x86_64-linux
 
 DEPENDENCIES
   lzrb!
