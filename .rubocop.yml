@@ -1,6 +1,11 @@
 AllCops:
   TargetRubyVersion: 2.5
   NewCops: enable
+  Exclude:
+    - bin/bundle
+    - bin/rake
+    - bin/rspec
+    - bin/rubocop
 
 Style/StringLiterals:
   Enabled: true
